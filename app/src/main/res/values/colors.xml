@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Hitam">#FF000000</color>
+    <color name="Putih">#FFFFFFFF</color>
+    <color name="Pink">#ED76BE</color>
+    <color name="BgPink">#FFD7EF</color>
+    <color name="SoftPink">#FCDAE6</color>
+    <color name="Biru">#2491B8</color>
+    <color name="SoftBiru">#CAE3F2</color>
+    <color name="Merah">#FF4B4B</color>
+    <color name="PrimaryPink">#AF2C74</color>
+</resources>

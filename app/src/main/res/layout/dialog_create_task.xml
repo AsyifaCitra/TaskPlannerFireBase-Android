@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/dialog_background">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Judul Tugas"
+        app:boxBackgroundMode="outline"
+        app:boxBackgroundColor="@color/SoftBiru"
+        app:boxStrokeColor="@color/Pink"
+        app:boxStrokeWidth="2dp"
+        app:boxCornerRadiusTopStart="12dp"
+        app:boxCornerRadiusTopEnd="12dp"
+        app:boxCornerRadiusBottomStart="12dp"
+        app:boxCornerRadiusBottomEnd="12dp"
+        app:hintTextColor="@color/Biru"
+        app:startIconDrawable="@android:drawable/ic_menu_edit"
+        app:startIconTint="@color/PrimaryPink">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-medium"
+            android:padding="16dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Deskripsi (Opsional)"
+        app:boxBackgroundMode="outline"
+        app:boxBackgroundColor="@color/SoftBiru"
+        app:boxStrokeColor="#9E9E9E"
+        app:boxStrokeWidth="2dp"
+        app:boxCornerRadiusTopStart="12dp"
+        app:boxCornerRadiusTopEnd="12dp"
+        app:boxCornerRadiusBottomStart="12dp"
+        app:boxCornerRadiusBottomEnd="12dp"
+        app:hintTextColor="#9E9E9E"
+        app:startIconDrawable="@android:drawable/ic_menu_info_details"
+        app:startIconTint="#9E9E9E">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:maxLines="3"
+            android:textSize="15sp"
+            android:padding="16dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Deadline"
+        app:boxBackgroundMode="outline"
+        app:boxBackgroundColor="@color/SoftBiru"
+        app:boxStrokeColor="@color/Biru"
+        app:boxStrokeWidth="2dp"
+        app:boxCornerRadiusTopStart="12dp"
+        app:boxCornerRadiusTopEnd="12dp"
+        app:boxCornerRadiusBottomStart="12dp"
+        app:boxCornerRadiusBottomEnd="12dp"
+        app:endIconDrawable="@android:drawable/ic_menu_my_calendar"
+        app:endIconMode="custom"
+        app:endIconTint="@color/PrimaryPink"
+        app:hintTextColor="@color/Biru"
+        app:startIconDrawable="@android:drawable/ic_menu_recent_history"
+        app:startIconTint="@color/PrimaryPink">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextDeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:maxLines="1"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-medium"
+            android:padding="16dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
